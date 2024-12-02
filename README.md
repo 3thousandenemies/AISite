@@ -1,6 +1,5 @@
-# AISite
-сайт-продукт об искусственном интеллекте
-
 # Проект абсолютно open-sourced
 
-feel free to commit :)
+
+
+feel free to commit (if you want to) :)

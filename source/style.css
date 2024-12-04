@@ -33,21 +33,31 @@ hr {
     align-items: center;
     padding: 20px;
     overflow: auto;
+    font-size: large;
 }
 
 .sidebar {
-    height: 91.5vh;
+    height: 91.55vh;
     width: 250px;
     background: rgb(27, 27, 27);
     color: #fff;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     overflow-y: auto;
     border-right: 1px solid #444;
     box-sizing: border-box;
     margin-left: 70px;
+}
+
+.undersidebar {
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .soderzhanie {
@@ -103,9 +113,9 @@ hr {
     text-decoration: none;
 }
 
-.soderzhanie a.active {
+.menubased.active {
 
-    color: #fff;
+    color: #d9d1d0;
     background: #152f46;
     padding: 2px 5px;
     border-radius: 3px;
